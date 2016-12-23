@@ -1,5 +1,7 @@
 #this is my rocks python repository.
 #python version: 2.7.12
+import platform
+print ('python.version is :' + platform.python_version())
 
 print("hello world")
 print ('this is','my rocks','python','example')
@@ -16,3 +18,7 @@ if 3 > 2:
     print("3 > 2")
 if 3 < 1:
     print("3 < 1")
+print(ord('A'))
+print(chr(65))
+
+print
