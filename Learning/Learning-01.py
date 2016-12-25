@@ -1,5 +1,6 @@
 #this is my rocks python repository.
 #python version: #2.7.12/3.6
+import time
 import platform
 print ('python.version is :' + platform.python_version())
 
@@ -21,10 +22,16 @@ if 3 < 1:
 print(ord('A'))
 print(chr(65))
 
-year = raw_input("input year:")
-if year > 2000:
-    print "%s is 00 later", year
-elif year > 1980:
-    print "%s is 80 later", year
-else:
-    print "%s is 80 before", year
+# test if and int
+# year = int(raw_input("input year:"))
+# if year > 2000:
+    # print "%s is 00 later"  % year
+# elif year > 1980:
+    # print "%s is 80 later" % year
+# else:
+    # print "%s is 80 before" % year
+
+# test while
+# while 1:
+    # print "this is endless lop"
+    # time.sleep(1)
