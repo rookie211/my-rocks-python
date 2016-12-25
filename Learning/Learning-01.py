@@ -21,4 +21,10 @@ if 3 < 1:
 print(ord('A'))
 print(chr(65))
 
-print
+year = raw_input("input year:")
+if year > 2000:
+    print "%s is 00 later", year
+elif year > 1980:
+    print "%s is 80 later", year
+else:
+    print "%s is 80 before", year
