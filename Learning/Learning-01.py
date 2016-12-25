@@ -1,5 +1,5 @@
 #this is my rocks python repository.
-#python version: 2.7.12
+#python version: #2.7.12/3.6
 import platform
 print ('python.version is :' + platform.python_version())
 
