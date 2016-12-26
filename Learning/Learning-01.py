@@ -35,3 +35,27 @@ print(chr(65))
 # while 1:
     # print "this is endless lop"
     # time.sleep(1)
+
+# test dict/set
+
+names = ['dict1', 'dict2', 'dict3', 'dict4']
+scores = [91, 92, 93, 94]
+print names
+print scores
+
+d = {'dict1':91, 'dict2':92, 'dict3':93, 'dict4':94}
+print d
+print d['dict2']
+
+d["dict5"] = 95
+print d
+
+print "dict2" in d
+print "dict6" in d
+
+print d.get("dict2")
+print d.get("dict6", 82)
+print d
+
+print d.pop("dict2")
+print d
