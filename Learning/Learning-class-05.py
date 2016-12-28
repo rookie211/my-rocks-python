@@ -150,3 +150,17 @@ print chain_test.status.user.bin
 
 
 #__call__
+
+
+#type()
+def fn(self, name = "world"):
+    print "hello, %s" % name
+    pass
+
+Hello = type('Hello', (object,), dict(hello=fn))
+h = Hello()
+h.hello()
+print type(Hello)
+print type(h)
+
+#Metaclass
